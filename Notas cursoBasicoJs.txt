@@ -1,0 +1,64 @@
+cCiudadana (3cred) 1000109-M
+W-10-12
+
+EstTec 3007468
+M y J 10-12 
+
+
+C Econo Social (3cred) 3008905
+L-W-12-14
+
+
+
+cINGcivil (3cred) 3009065
+L-8-12
+
+
+const: sirve para declarar variables que nunca van a ser modificadas
+Let: Son variables que pueden ser modificadas, se pueden cambia
+
+condition ? true : false
+ej: var num = 1;
+    var result = num === 1 ? "Si soy un uno" : "No soy un uno";
+    console.log(result);-->Si soy un uno"
+
+frutas[]
+
+frutas.push()-->ingresa el elemento dentro del parentecias al array frutas
+                en la ultima posición
+frutas.pop()-->expulsa el elemento dentro del parentecis del array frutas
+frutas.unshift()-->ingresa el elemento dentro del parentecias al array frutas 
+                   en la primera posición
+frutas.shift()-->elimina el elemento dentro del parentecis que está en 
+                 el inicio del array frutas
+frutas.indexOf()-->devuelve la posición en la que se encuentra el elemento del parentecis
+                   dentro del array frutas
+
+for - recorre un bloque de código varias veces
+for(var i = 0; i < cantidad de veces que quiero que se repita ; i++){
+}
+
+
+for/in - recorre las propiedades de un objeto
+
+for/of - recorre los valores de un objeto iterable
+
+while - recorre un bloque de código mientras se cumple una condición específica
+
+do/while - también recorre un bloque de código mientras se cumple una condición específica
+
+Objeto:
+ej,  var miAuto = {
+         marca: "Toyota",
+         modelo: "Corola",
+         año: 2020};
+     miAuto.marca--->Toyota 
+
+función constructora de objetos
+ej,  function auto(marca, modelo, año){
+              this.marca: marca;
+              this.modelo: modelo;
+              this.año: año;}
+     var autoNuevo = new auto("Toyota", "Corola", 2020); 
+
+Object.values(obj)-->devuelve los valores de un objeto en forma de array
